@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0",
+    "message": "Welcome to WISDOM chatbot!",
+    "trigger": "1"
+  },
+  {
+    "id": "1",
+    "message": "How are you doing",
+    "trigger": "2"
+  },
+  {
+    "id": "2",
+    "user": true,
+    "trigger": "3"
+  },
+  {
+    "id": "3",
+    "message": "What car troubles are you having",
+    "trigger": "4"
+  },
+  {
+    "id": "4",
+    "options": [
+      {"value": 1, "label": "DEAD BATTERY", "trigger": "5"},
+      {"value": 2, "label": "ACCIDENT", "trigger": "5"},
+      {"value": 3, "label": "TYRE DAMAGE", "trigger": "5"},
+      {"value": 4, "label": "FUEL PROBLEM", "trigger": "5"}
+    ]
+  },
+  {
+    "id": "5",
+    "message": "Please share your location",
+    "trigger": "6"
+  },
+  {
+    "id": "6",
+    "message": "We will use it to put in touch with the nearest provider",
+    "trigger": "7"
+  },
+  {
+    "id": "7",
+    "message": "Thank you for the reply!We will help you to fix it.",
+    "end": true
+  }
+]
